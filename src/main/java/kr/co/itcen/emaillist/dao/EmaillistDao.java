@@ -156,7 +156,7 @@ public class EmaillistDao {
 				if (pstmt != null) {
 					pstmt.close();
 				}
-				if (connection != null) {
+				if(connection != null) {
 					connection.close();
 				}
 			} catch (SQLException e) {
@@ -165,5 +165,5 @@ public class EmaillistDao {
 		}
 		return result;
 	}
-
+ 
 }

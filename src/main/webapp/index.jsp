@@ -21,7 +21,6 @@
 	<%
 		for(EmaillistVo vo : list){
 			
-	
 	%>
 	<table border="1" cellpadding="5" cellspacing="2">
 		<tr>
@@ -38,12 +37,9 @@
 		</tr>
 	</table>
 	<br>
-
 	<%
-		
-		}
-		
-		%>
+		}	
+	%>
 	<p>
 		<a href="<%=request.getContextPath() %>/form.jsp">추가메일 등록 
 	</p>

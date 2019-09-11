@@ -22,7 +22,6 @@
 	</dependencies>
 
 
-
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>emaillist1</finalName>
